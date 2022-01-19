@@ -67,7 +67,7 @@
                                     <action selector="calculated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iX9-hK-hJe"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="idf-X9-afn">
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="idf-X9-afn">
                                 <rect key="frame" x="0.0" y="495" width="414" height="401"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>

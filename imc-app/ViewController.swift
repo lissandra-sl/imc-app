@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     @IBAction func calculated(_ sender: Any) {
         if let weight = Double(tfWeight.text!), let height = Double(tfHeight.text!){
             imc = weight / (height*height)
+            
+            showResult()
         }
         
     }
@@ -51,6 +53,7 @@ class ViewController: UIViewController {
         }
         lbResult.text = result
         ivResult.image = UIImage (named: image)
+        viResult.isHidden = false
         
     }
     
